@@ -31,6 +31,16 @@ Some questions our audience could answer from our resource could be:
 
 ## Technical Description
 
+During the process of data collection/data management, we anticipate facing a few challenges. The first challenge we anticipate to face is not getting the individual player's data. We thought player’s data is also an important factor to predict the winner / final points of the league, our datasets only have each teams’ data. The second challenge we anticipate to face is having trouble with finding dataset related to variables that the dataset doesn’t contain. For instance,  we could not get the data about the stadium conditions; the length of lawn or weather condition of the game. 
+
+In order to complete the project, we need to learn additional technical skills that we did not learn in class. Since we are going to use Poisson distribution to predict the points and rankings, we need to learn about Poisson distribution packages. Also, if we choose to use a neural network as our machine learning technique, we need to research about the algorithm and learn how to apply in python. Lastly, we want to learn and use data visualizations that we did not use in the lecture.
+
+To analyze the data, we will first think about what features affect the results of the game. We think that betting odds and game stats, especially shoot on target, goals, and red cards, affect the result of the game. Using current stats of the team, we think we can predict the results of remaining games, and predict the ranking. After predicting the variables, we will use forward/backward selection to find the set of variables that improve the linear regression the most. Then, we will use linear regression to find out the relationship between the game result and the features we chose. Lastly, we will use Poisson distribution to predict the result of the remaining games. A Poisson distribution shows the likely number of times that an event will occur within a predetermined period of time. (Tutorials point) Since each team left with 10 games remaining, we can predict the result of remaining games and predict final ranking or points of the teams. After predicting the results of the games, we will convert our paper to HTML and post on the GH-pages on Github.
+
+There are a few major challenges that we anticipate to face. The first challenge would be having a consistent dataset. At the end of the season, last 3 teams are regulated to the second division, and 3 teams from second division promote to the premier league. Since we are looking at the data of the past 5 years, the teams that are regulated or promoted in the past 5 years will have a fewer number of the dataset. Also, there are many unpredicted or hidden variables, such as players injuries, stadium condition, change of managers and weather, can highly affect the result of the game. 
+
+
+
 ## Citations
 AJ Lee: https://amstat.tandfonline.com/doi/pdf/10.1080/09332480.1997.10554791
 
