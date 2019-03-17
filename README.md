@@ -1,4 +1,4 @@
-# INFO 370 Final Project
+﻿# INFO 370 Final Project 
 
 Kangwoo Choi, Won Barng, Vincent Widjaya, William Kwok
 
